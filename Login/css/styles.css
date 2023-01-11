@@ -1,0 +1,58 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin-top: 5vh;
+  background-color: #e0e1dd;
+  border: 1px black solid;
+  border-radius: 2vh;
+  display: flex;
+  width: 120vh;
+  height: 90vh;
+}
+
+.primerMitad{
+  width: 50%;
+  overflow: hidden;
+  
+}
+
+.imagenMarket{
+  width: 150%;
+  height: 100%;
+  border-radius: 2vh;
+}
+
+.segundaMitad{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenLogo{
+  width: 80%;
+}
+
+.formContainer{
+  width: 100%;
+}
+
+.formStyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} 
+
+.buttonSend{
+  margin-top: 2vh;
+  height: 4vh;
+  width: 30%;
+  background-color: #3a86ff;
+  border: solid 1px gray;
+  border-radius: 1vh;
+}
